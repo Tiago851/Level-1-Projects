@@ -11,9 +11,6 @@ class Massa:
 	def __init__(self,massa):
 		self.massa = massa
 
-		if float(self.massa) < 0:
-			messagebox.showwarning("Nope","Mass cannot be negative!")
-
 	def kilos(self):
 		k = float(self.massa)
 		p = k*2.2046244202
